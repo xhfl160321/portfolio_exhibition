@@ -22,13 +22,13 @@
     $(".pageM4 a").click(function () {
         $("#articleWrap").show();
         var x = $(window).scrollTop();
-        $('html, body').animate({ scrollTop: x + 900 }, 500)
+        $('html, body').animate({ scrollTop: x + 1000 }, 500)
     });
 
     //   article 페이지 화살표 누르면 메인페이지로 이동하는 쿼리
     $(".articleMid a").click(function () {
         var x = $(window).scrollTop();
-        $('html, body').animate({ scrollTop: x - 900 }, 500)
+        $('html, body').animate({ scrollTop: x - 1000 }, 500)
         $("#articleWrap").slideUp(500);
     });
 
